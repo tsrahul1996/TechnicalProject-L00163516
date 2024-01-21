@@ -1,11 +1,8 @@
-# NIH-Chest-X-rays-Classification setup
+# NIH-Chest-X-rays-Classification using MobileNet
 
 # Project Overview
 
-This project aims to classify the NIH chest x-ray dataset through the use of a MobileNet architecture.  We optimize our model through incremental steps.  We first tune hyperparameters, then experiment with different architectures, This dataset was gathered by the NIH and contains over 100,000 anonymized chest x-ray images from more than 30,000 patients. The data represents NLP analysis of radiology reports and may include areas of lower confidence in diagnoses. As a simplifying assumption, wee assume that based on the size of the dataset, that the dataset is accurate in diagnoses.
-
-One of the difficulties of this problem involves the lack of a "diagnosis confidence" attribute in the data.  In addition to a chest X-ray, diagnosis involves patient presentation and history.  Further, some physician's diagnoses will not be agreed upon by others.  Therefore, it is likely that some of the images are mislabeled.
-
+This project aims to classify the NIH chest x-ray dataset through the use of a MobileNet architecture. This dataset was gathered by the NIH and contains over 100,000 anonymized chest x-ray images from more than 30,000 patients. The data represents NLP analysis of radiology reports and may include areas of lower confidence in diagnoses. As a simplifying assumption, we assume that based on the size of the dataset, the dataset is accurate in diagnoses.
 
 # Technologies
 
